@@ -1,3 +1,10 @@
+// Mensagem de Alerta
+const loadMessage = () => {
+    alert('Vereador : 38111, Prefeito : 99')
+}
+
+loadMessage()
+
 let seuVotoPara = document.querySelector('.d-1-1 span')
 let cargo = document.querySelector('.d-1-2 span')
 let descricao = document.querySelector('.d-1-4')
